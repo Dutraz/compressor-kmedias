@@ -24,8 +24,8 @@ def kmeans(path, clusters):
         None,
 
         # Definindo o critério de parada
-        # Para ao atingir a precisão de 0.85 ou 100 iterações
-        (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.85),
+        # Para ao atingir a precisão de 0.85 ou 500 iterações
+        (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 500, 0.85),
 
         # Número de vezes que o algoritmo vai tentar obter o melhor resultado iniciando por outro valor
         10,
@@ -45,13 +45,19 @@ def kmeans(path, clusters):
 
 
 def show_image(img):
+    # Carrega dimensões da imagem
     height, width, channels = img.shape
 
+    # Plota a imagem
     plt.figure()
     plt.imshow(img)
     fig = plt.gcf()
+
+    # Configura o tamanho da imagem
     fig.set_size_inches(width / 100, height / 100)
     plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
+
+    # Mostra a imagem
     plt.show()
 
 
@@ -65,10 +71,12 @@ def unique_count(img):
 
 
 def save_image(img, name, clusters, output_id=0):
+    # Cria a pasta de saída, caso não exista
     folder = f'./outputs/{output_id}'
     if not os.path.exists(folder):
         os.makedirs(folder)
 
+    # Salva a imagem
     path = f'{folder}/{name[:-4]}_{clusters}.png'
     if not cv2.imwrite(path, img):
         raise Exception('Erro ao salvar imagem')

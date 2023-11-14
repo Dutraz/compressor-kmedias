@@ -9,6 +9,7 @@ from images import unique_count, get_size_in_mb
 def setup_logger(output_id):
     log_path = f'./outputs/{output_id}/log.txt'
 
+    # Caso não exista, cria o arquivo de log
     if not os.path.exists(os.path.dirname(log_path)):
         os.makedirs(os.path.dirname(log_path))
 
@@ -19,6 +20,7 @@ def setup_logger(output_id):
         encoding='utf-8',
     )
 
+    # Seta o nível de log para DEBUG e adiciona um handler para imprimir no console
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
     logger.addHandler(logging.StreamHandler())
@@ -46,3 +48,9 @@ def print_info(path, resolution=False, timer=None, original_size=None):
         logger.info(f'Tempo: {timer:.2f} s')
 
     logger.info('')
+
+
+def print_initial_info(image_name):
+    logger = logging.getLogger()
+    logger.info('=====================================')
+    logger.info(f'Imagem: {image_name}')
