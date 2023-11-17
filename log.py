@@ -15,7 +15,7 @@ def setup_logger(output_id):
 
     logging.basicConfig(
         filename=log_path,
-        filemode='w',
+        filemode='a',
         format='%(message)s',
         encoding='utf-8',
     )

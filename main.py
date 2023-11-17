@@ -7,15 +7,15 @@ from utils import MODE, get_images, get_last_output, output_exists, get_output_i
 if __name__ == '__main__':
 
     # Parâmetros de execução
-    mode = MODE.RESTART
-    sizes = [2, 10, 20, 30, 40, 50, 60]
+    mode = MODE.CONTINUE
+    sizes = [2, 4, 8, 16, 32, 64, 128, 256]
 
     # Busca as imagens em disco e o último output gerado
     images = get_images()
     last_output = get_last_output()
 
     # Verifica, caso o modo seja CONTINUE, se todos os outputs já foram gerados
-    if mode == MODE.CONTINUE:
+    if mode == MODE.CONTINUE and last_output > 0:
         if len(get_output_images(last_output)) >= len(images) * len(sizes):
             mode = MODE.RESTART
 
