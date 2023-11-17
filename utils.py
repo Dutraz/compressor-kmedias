@@ -7,7 +7,7 @@ class MODE:
 
 
 def get_images():
-    return [f for f in os.listdir('../images') if f.endswith('.png')]
+    return [f for f in os.listdir('images') if f.endswith('.png')]
 
 
 def get_output_images(output_id):
@@ -15,7 +15,7 @@ def get_output_images(output_id):
 
 
 def get_last_output():
-    return max([int(f) for f in os.listdir('../outputs') if f.isdigit()] + [0])
+    return max([int(f) for f in os.listdir('outputs') if f.isdigit()] + [0])
 
 
 def output_exists(output_id, image, clusters):
