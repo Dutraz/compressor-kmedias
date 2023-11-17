@@ -2,7 +2,7 @@ import time
 
 from images import kmeans, save_image, get_size_in_mb, show_image
 from log import print_info, setup_logger, print_initial_info
-from utils import MODE, get_images, get_last_output, output_exists
+from utils import MODE, get_images, get_last_output, output_exists, get_output_images
 
 if __name__ == '__main__':
 
@@ -13,6 +13,12 @@ if __name__ == '__main__':
     # Busca as imagens em disco e o último output gerado
     images = get_images()
     last_output = get_last_output()
+
+    # Verifica, caso o modo seja CONTINUE, se todos os outputs já foram gerados
+    if mode == MODE.CONTINUE:
+        if len(get_output_images(last_output)) >= len(images) * len(sizes):
+            mode = MODE.RESTART
+
     output_id = last_output + 1 if mode == MODE.RESTART else last_output
 
     setup_logger(output_id)
