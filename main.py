@@ -1,8 +1,8 @@
 import time
 
-from images import kmeans, save_image, get_size_in_mb, show_image
-from log import print_info, setup_logger, print_initial_info
-from utils import MODE, get_images, get_last_output, output_exists, get_output_images
+from src.images import kmeans, save_image, get_size_in_mb, show_image
+from src.log import print_info, setup_logger, print_initial_info
+from src.utils import MODE, get_images, get_last_output, output_exists, get_output_images
 
 if __name__ == '__main__':
 
