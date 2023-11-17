@@ -20,9 +20,9 @@ def setup_logger(output_id):
         encoding='utf-8',
     )
 
-    # Seta o nível de log para DEBUG e adiciona um handler para imprimir no console
+    # Seta o nível de log para INFO e adiciona um handler para imprimir no console
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     logger.addHandler(logging.StreamHandler())
 
 

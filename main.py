@@ -1,6 +1,6 @@
 import time
 
-from images import kmeans, save_image, get_size_in_mb
+from images import kmeans, save_image, get_size_in_mb, show_image
 from log import print_info, setup_logger, print_initial_info
 from utils import MODE, get_images, get_last_output, output_exists
 
@@ -42,3 +42,4 @@ if __name__ == '__main__':
             # Salva a imagem e faz o log final da execução
             output = save_image(new_image, image_name, n, output_id)
             print_info(output, timer=timer, original_size=original_size)
+            show_image(new_image)

@@ -71,6 +71,9 @@ def unique_count(img):
 
 
 def save_image(img, name, clusters, output_id=0):
+    # Convertendo a imagem de RGB para BGR
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
     # Cria a pasta de saída, caso não exista
     folder = f'./outputs/{output_id}'
     if not os.path.exists(folder):
