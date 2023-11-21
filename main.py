@@ -7,8 +7,8 @@ from utils import MODE, get_images, get_last_output, output_exists, get_output_i
 if __name__ == '__main__':
 
     # Parâmetros de execução
-    mode = MODE.CONTINUE
-    sizes = [2, 4, 8, 16, 32, 64, 128, 256]
+    mode = MODE.RESTART
+    sizes = [2, 4, 8, 12, 16, 24, 32]
 
     # Busca as imagens em disco e o último output gerado
     images = get_images()

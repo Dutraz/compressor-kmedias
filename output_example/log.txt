@@ -1,0 +1,246 @@
+=====================================
+Imagem: arcane_1.png
+Resolução: 1200x1920
+Nº de cores: 348769
+Tamanho: 3.14576 mb
+
+Nº de cores: 2
+Tamanho: 0.194509 mb
+Compressão: 93.82%
+Tempo: 1.25 s
+
+Nº de cores: 4
+Tamanho: 0.55313 mb
+Compressão: 82.42%
+Tempo: 4.59 s
+
+Nº de cores: 8
+Tamanho: 1.026211 mb
+Compressão: 67.38%
+Tempo: 14.94 s
+
+Nº de cores: 12
+Tamanho: 1.29738 mb
+Compressão: 58.76%
+Tempo: 26.96 s
+
+Nº de cores: 16
+Tamanho: 1.396406 mb
+Compressão: 55.61%
+Tempo: 45.68 s
+
+Nº de cores: 24
+Tamanho: 1.599453 mb
+Compressão: 49.16%
+Tempo: 65.20 s
+
+Nº de cores: 32
+Tamanho: 1.795657 mb
+Compressão: 42.92%
+Tempo: 112.90 s
+
+=====================================
+Imagem: arcane_2.png
+Resolução: 1200x2133
+Nº de cores: 76521
+Tamanho: 1.4844 mb
+
+Nº de cores: 2
+Tamanho: 0.070521 mb
+Compressão: 95.25%
+Tempo: 2.15 s
+
+Nº de cores: 4
+Tamanho: 0.186303 mb
+Compressão: 87.45%
+Tempo: 5.79 s
+
+Nº de cores: 8
+Tamanho: 0.307008 mb
+Compressão: 79.32%
+Tempo: 21.15 s
+
+Nº de cores: 12
+Tamanho: 0.409348 mb
+Compressão: 72.42%
+Tempo: 41.00 s
+
+Nº de cores: 16
+Tamanho: 0.442538 mb
+Compressão: 70.19%
+Tempo: 35.31 s
+
+Nº de cores: 24
+Tamanho: 0.548236 mb
+Compressão: 63.07%
+Tempo: 68.16 s
+
+Nº de cores: 32
+Tamanho: 0.688223 mb
+Compressão: 53.64%
+Tempo: 87.73 s
+
+=====================================
+Imagem: arcane_3.png
+Resolução: 2844x5120
+Nº de cores: 1176359
+Tamanho: 30.287973 mb
+
+Nº de cores: 2
+Tamanho: 1.565876 mb
+Compressão: 94.83%
+Tempo: 10.53 s
+
+Nº de cores: 4
+Tamanho: 3.972632 mb
+Compressão: 86.88%
+Tempo: 36.44 s
+
+Nº de cores: 8
+Tamanho: 7.289352 mb
+Compressão: 75.93%
+Tempo: 130.80 s
+
+Nº de cores: 12
+Tamanho: 9.919897 mb
+Compressão: 67.25%
+Tempo: 208.70 s
+
+Nº de cores: 16
+Tamanho: 11.679717 mb
+Compressão: 61.44%
+Tempo: 335.47 s
+
+Nº de cores: 24
+Tamanho: 14.833639 mb
+Compressão: 51.02%
+Tempo: 579.91 s
+
+Nº de cores: 32
+Tamanho: 16.628491 mb
+Compressão: 45.10%
+Tempo: 653.71 s
+
+=====================================
+Imagem: arcane_4.png
+Resolução: 1080x1920
+Nº de cores: 136889
+Tamanho: 1.107203 mb
+
+Nº de cores: 2
+Tamanho: 0.070226 mb
+Compressão: 93.66%
+Tempo: 1.60 s
+
+Nº de cores: 4
+Tamanho: 0.177502 mb
+Compressão: 83.97%
+Tempo: 4.23 s
+
+Nº de cores: 8
+Tamanho: 0.309232 mb
+Compressão: 72.07%
+Tempo: 10.62 s
+
+Nº de cores: 12
+Tamanho: 0.323838 mb
+Compressão: 70.75%
+Tempo: 20.87 s
+
+Nº de cores: 16
+Tamanho: 0.366079 mb
+Compressão: 66.94%
+Tempo: 34.44 s
+
+Nº de cores: 24
+Tamanho: 0.490763 mb
+Compressão: 55.68%
+Tempo: 52.05 s
+
+Nº de cores: 32
+Tamanho: 0.519951 mb
+Compressão: 53.04%
+Tempo: 92.84 s
+
+=====================================
+Imagem: arcane_5.png
+Resolução: 1080x2160
+Nº de cores: 342730
+Tamanho: 2.628911 mb
+
+Nº de cores: 2
+Tamanho: 0.090435 mb
+Compressão: 96.56%
+Tempo: 2.09 s
+
+Nº de cores: 4
+Tamanho: 0.284231 mb
+Compressão: 89.19%
+Tempo: 7.48 s
+
+Nº de cores: 8
+Tamanho: 0.478793 mb
+Compressão: 81.79%
+Tempo: 32.76 s
+
+Nº de cores: 12
+Tamanho: 0.638991 mb
+Compressão: 75.69%
+Tempo: 25.86 s
+
+Nº de cores: 16
+Tamanho: 0.688812 mb
+Compressão: 73.80%
+Tempo: 44.96 s
+
+Nº de cores: 24
+Tamanho: 0.852478 mb
+Compressão: 67.57%
+Tempo: 75.80 s
+
+Nº de cores: 32
+Tamanho: 0.926965 mb
+Compressão: 64.74%
+Tempo: 104.88 s
+
+=====================================
+Imagem: arcane_6.png
+Resolução: 1080x1920
+Nº de cores: 154947
+Tamanho: 1.321211 mb
+
+Nº de cores: 2
+Tamanho: 0.079842 mb
+Compressão: 93.96%
+Tempo: 2.04 s
+
+Nº de cores: 4
+Tamanho: 0.29731 mb
+Compressão: 77.50%
+Tempo: 6.71 s
+
+Nº de cores: 8
+Tamanho: 0.562314 mb
+Compressão: 57.44%
+Tempo: 12.50 s
+
+Nº de cores: 12
+Tamanho: 0.761143 mb
+Compressão: 42.39%
+Tempo: 28.20 s
+
+Nº de cores: 16
+Tamanho: 0.816318 mb
+Compressão: 38.21%
+Tempo: 35.12 s
+
+Nº de cores: 24
+Tamanho: 0.920551 mb
+Compressão: 30.33%
+Tempo: 51.74 s
+
+Nº de cores: 32
+Tamanho: 1.070673 mb
+Compressão: 18.96%
+Tempo: 95.79 s
+
