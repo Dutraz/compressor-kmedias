@@ -40,3 +40,9 @@ Para cada imagem original e suas versões geradas, o software computa e salva:
 - Resolução da imagem em pixels.
 - Tamanho ocupado em memória pela imagem em KB.
 - Quantidade de cores únicas.
+
+
+### Resultados
+
+- O resultado do experimento pode ser visto no arquivo [relatorio.pdf](relatorio.pdf).
+- Além disso, as imagens resultantes do experimento podem ser vistas na pasta [outputs_example](output_example/) deste projeto.
